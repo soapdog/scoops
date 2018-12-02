@@ -1,0 +1,12 @@
+{
+  "homepage": "http://livecode.org",
+  "version": "9.0.1",
+  "url": [
+    "https://livecodestatic.com/downloads/livecode/9_0_1/LiveCodeCommunityInstaller-9_0_1-Windows.exe#/livecode-installer.exe",
+    "https://github.com/soapdog/scoops/scripts/livecode-postinstaller.ps1"
+  ],
+  "hash": [
+    "d09bcafb243830b2bad54597486feba02daf680d7dd4a08333911857f09ec6f8"
+  ],
+  "post_install": "Start-Process -FilePath cmd.exe -ArgumentList \"/C $dir\\livecode-installer.exe install noui -location $dir\" -Wait"
+}
