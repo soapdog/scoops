@@ -8,5 +8,5 @@
   "hash": [
     "d09bcafb243830b2bad54597486feba02daf680d7dd4a08333911857f09ec6f8"
   ],
-  "post_install": "livecode-postinstaller.ps1 $dir"
+  "post_install": "\"$dir\\livecode-postinstaller.ps1 $dir\""
 }
