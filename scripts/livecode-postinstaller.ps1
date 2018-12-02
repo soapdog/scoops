@@ -1,0 +1,1 @@
+Start-Process -FilePath cmd.exe -ArgumentList "/C livecode-installer.exe install noui"
